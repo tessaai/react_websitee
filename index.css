@@ -1,0 +1,68 @@
+
+/* navbae styles */
+.navbar-bg{
+  background-color: var(--bgcolor);
+  padding: 2rem;
+  z-index: 99;
+  position: relative;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+
+}
+.navbar li{
+  padding: 0.2rem;
+}
+
+.navbar li a{
+font-size: 1.3rem;
+position: relative;
+font-weight: lighter;
+
+}
+.navbar li a:hover {
+  color: #47D7AC;
+  text-shadow:  0 0.3rem 0.2rem #9Fc5e3;
+  
+}
+
+.btn-style{
+  width: 8rem;
+  height: 3rem;
+  border-radius: 3rem;
+  border: #0a5453;
+  background-color: #47D7AC;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+
+
+}
+.btn-style  :first-child{
+  margin-right: 2rem;
+
+}
+
+.btn-style:hover{
+  border: 0.1rem solid var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem #9Fc5e3;
+  background-color: transparent;
+  color: #47D7AC
+}
+
+.btn-style-border{
+  border: 0.1rem solid var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem #9Fc5e3;
+  background-color: transparent;
+  color: #47D7AC
+
+}
+.btn-style-border:hover{
+  background-color: #47D7AC;
+  text-transform: capitalize;
+  border: #0a5453;
+  /* login font size nhi dikh rha h */
+
+
+
+}
+
